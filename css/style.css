@@ -1,0 +1,40 @@
+body{
+    background:#ddd;
+}
+
+/*--------<DialogBox>----------*/
+#dialogBox{
+    background:#AFECFF;
+    width:430px;
+    border:2px solid #000;
+    text-align:center;
+    border-radius:10px;
+    font-size:20px;
+    padding-top:60px;
+    margin:15% auto;
+}
+
+#dialogBox p{
+    margin:0;
+    padding:0;
+}
+
+#dialogBox button{
+    margin:30px 0px 10px 0px;
+    border:none;
+    width:200px;
+    height:50px;
+    cursor:pointer;
+    font-size:20px;
+    background:none;
+    padding-top:5px;
+}
+
+#dialogBox, #dialogBox button{
+    font-family: Lucida Handwriting;
+}
+
+#dialogBox button:hover{
+    background: url(../img/cloud6.png);
+}
+/*--------</DialogBox>----------*/
